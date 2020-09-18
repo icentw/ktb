@@ -1,0 +1,47 @@
+/* Table Of Content */
+/*
+1. Section Settings
+2. Section Carousel
+3. Section Blog
+4. Section Footer
+5. Section Navbar
+6. Section page-tittle
+7. Section Timeline
+8. Section Star
+9. Section On to top
+________________________________________
+
+Colot
+04151f-a31621-dad2d8-197278-72727e
+*/
+
+/* Section Settings */
+svg{
+  font-size: 24px;
+}
+
+.card button{
+  border-radius: 10px;
+  margin: 0px 0 20px 0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.5rem;
+  margin: 20;
+}
+
+.date-blog{
+  margin: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: rgb(0, 181, 253);
+}
+
+.date-blog:hover{
+  color: #ffffff;
+  background-color: rgb(0, 181, 253);
+}
