@@ -16,7 +16,8 @@
       <!-- /.login-logo -->
       <div class="card" style="border-radius: 15px;">
         <div class="card-body login-card-body">
-          <h3 class="date-blog"><b><span id="date"></span></b></h3>
+          <h3 class="date-blog"><b><span id="date"></span><p id="demo"></p></b></h3>
+          <p id="demo"></p>
     
           <form action="" method="post">
             <div class="row">
@@ -100,6 +101,14 @@
       var min = n.getUTCMinutes();
       var s = n.getUTCSeconds();
       document.getElementById("date").innerHTML = d + " " + m + " " + y;
+
+      var myVar = setInterval(myTimer, 1000);
+
+      function myTimer() {
+        var n = new Date();
+        var t = n.toLocaleTimeString();
+        document.getElementById("demo").innerHTML = t;
+      }
     </script>
   </body>
 </html>
